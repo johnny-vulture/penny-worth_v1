@@ -170,7 +170,7 @@ async def question_five(update: Update, context: ContextTypes.DEFAULT_TYPE) -> i
     if correct_count == 5:
         result_text = (
             f"Congratulations!! You answered all the questions correctly, Enjoy your bonus! Use Code : BIGQUIZ\n\n"
-            "https://www.slotvibe.com/?fast-deposit=modal&bonus=BIGQUIZ"
+            
         )
     else:
         result_text = (
